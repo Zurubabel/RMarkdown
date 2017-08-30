@@ -1,0 +1,30 @@
+---
+title: "Aula 3 - Listas"
+author: "Zurubabel"
+date: "30 de agosto de 2017"
+output: html_document
+---
+
+# Aula 3 - Listas
+
+
+### Lista ordenada
+
+1. Arroz
+2. Feijão
+3. Batata
+
+### Lista não ordenada
+
+* Arroiz
+* Fejão
+* batatah
+
+### Sublista
+
+1. Arroiz
+2. Fejão
+3. Calzone
+    + Coxinha
+    + Pãum de Batatah
+    + E essas coisas
