@@ -1,0 +1,22 @@
+---
+title: "Aula 2 - Formatação de texto"
+author: "Zurubabel"
+date: "30 de agosto de 2017"
+output: html_document
+---
+
+# Formatação de texto 
+
+\* = *Itálico*
+
+\*\* = **Negrito**
+
+\`\` = Formata igual código
+
+## Exemplo 1
+
+O Jailson, mais conhecido como *Pai de Família*, foi até a oficina do **Paulo Guina**.
+
+## Exemplo 2
+
+Para você obter os primeiros dados de um vetor, usar a função `head()`.
