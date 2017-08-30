@@ -1,0 +1,30 @@
+---
+title: "Aula 1 - Formatação de Texto"
+author: "Zurubabel"
+date: "30 de agosto de 2017"
+output: html_document
+---
+
+# Cabeçalhos do R Markdown
+Os cabeçalhos do R Markdown são feitos com o #. Quanto mais hashtags, menor é o cabeçalho.
+
+### Exemplos
+
+# H1
+\# H1
+
+## H2
+
+\## H2
+
+### H3
+
+\### H3
+
+#### H4
+
+\#### H4
+
+##### H5
+
+\##### H5
