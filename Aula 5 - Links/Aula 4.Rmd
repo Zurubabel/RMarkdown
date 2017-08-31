@@ -1,0 +1,14 @@
+---
+title: "Aula 5 - Links"
+author: "Zurubabel"
+date: "31 de agosto de 2017"
+output: html_document
+---
+
+# Criando links no R Markdown
+
+Para criar links, é só envolver o texto a ser exibido por colchetes "[]" e o link entre parênteses.
+
+**Código**: `[Github](https://github.com/Zurubabel/RMarkdown)`
+
+**Resultado**: Caso vocês queiram baixar os arquivos das aulas, é só acessar o meu [Github](https://github.com/Zurubabel/RMarkdown).
