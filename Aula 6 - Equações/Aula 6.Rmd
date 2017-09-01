@@ -1,0 +1,27 @@
+---
+title: "Aula 6 - Equações"
+author: "Zurubabel"
+date: "01 de setembro de 2017"
+output: html_document
+---
+
+# Fórmulas Matemáticas
+
+Para incluírmos as fórmulas matemáticas no documento, usar `$$ LaTeX $$` (bloco) ou `$ LaTeX $` (na linha) 
+
+## Exemplos
+$$
+  \sqrt{\frac{a}{b}}
+$$
+
+$$
+  \forall x \exists y(F(x,y) \to Q(y,x))
+$$
+
+$$
+  s = \sqrt{\frac {\sum_{i=1}^N(x-\bar{x})²} {N-1}}
+$$
+
+$$
+  Jailson = (PauloGuina + SucoLaranja) x SucoLaranja²
+$$
