@@ -1,0 +1,25 @@
+---
+title: "Aula 7 - Bloco de Código"
+author: "Zurubabel"
+date: "8 de setembro de 2017"
+output: html_document
+---
+
+# Bloco de código
+
+Você pode criar blocos inline ou em bloco.
+
+
+## Bloco
+
+```{r }
+# kjdhfsdhfjjf
+x <- c("Zurubabel")
+
+str(mtcars)
+
+```
+
+## Inline
+
+``r format(Sys.time(), "%a %b %d %X %Y") ``
