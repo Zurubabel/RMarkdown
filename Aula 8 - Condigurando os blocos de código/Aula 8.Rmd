@@ -1,0 +1,59 @@
+---
+title: "Aula 8 - Configurando os blocos de código"
+author: "Zurubabel"
+date: "8 de setembro de 2017"
+output: html_document
+---
+
+# Configurando os blocos de código
+
+Podemos configurar os blocos de código com algumas flags. Elas podem possuir o valor `TRUE` ou `FALSE`.
+
+## Flags
+
+### Eval
+
+O `eval` habilita ou não a execução do código. 
+Com `eval = FALSE` o código não será executado e possíveis valores não serão armazenados.
+
+
+```{r eval = TRUE}
+
+str(x <- "Churros")
+
+```
+
+``r x `` 
+
+### echo
+
+O `echo` mostra o código junto ao resultado.
+
+
+```{r echo = TRUE}
+
+str(mtcars)
+
+```
+
+### warning
+
+O `warning` exibe possíveis advertências no código
+
+```{r warning = FALSE}
+
+warning("Era essa a peça que você queria?")
+
+```
+
+### error
+
+`error` oculta ou não as mensagens de erro do seu código. Se `FALSE` também não deixa executar o código.
+
+```{r error = FALSE}
+
+c()
+
+```
+
+
