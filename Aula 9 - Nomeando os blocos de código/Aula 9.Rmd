@@ -1,0 +1,27 @@
+---
+title: "Aula 9 - Nomeando os blocos de código"
+author: "Zurubabel"
+date: "8 de setembro de 2017"
+output: html_document
+---
+
+# Nomeando e executando os blocos de código
+
+Após o comando `{r `, você pode nomear o bloco de código.
+
+#### Exemplo
+
+```{r chulesco, eval = FALSE, echo = FALSE}
+#Criando o código
+
+modelo_arima <- arima.sim(model = list(c(0,0,0)), n = 50)
+
+plot(modelo_arima)
+
+```
+
+```{r ref.label = 'chulesco'}
+#Executando o código previamente criado
+
+
+```

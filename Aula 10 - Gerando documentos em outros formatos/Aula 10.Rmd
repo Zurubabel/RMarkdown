@@ -1,0 +1,32 @@
+---
+title: "Aula 10 - Gerando documentos em outros formatos"
+author: "Zurubabel"
+date: "15 de setembro de 2017"
+output:
+  word_document: default
+  html_document: default
+---
+
+# Gerando documentos em outros formatos
+
+Para gerar PDFs, PPTs e afins, insira o tipo de dado no `output`, no bloco inicial do documento.
+ 
+## Possíveis Configurações
+
+* `html_document`
+* `pdf_document` - caso não funcione, baixar e instalar o pacote [MiKTeX](https://miktex.org/2.9/setup)
+* `word_document`
+* `beamer_presentation`
+* `slidy_presentation`
+* `ioslides_presentation`
+* `word_document`
+
+```{r }
+#Modelo White Noise
+
+modelo_arima <- arima.sim(model = list(c(0,0,0)), n = 50)
+
+plot(modelo_arima)
+
+```
+
